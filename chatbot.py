@@ -68,8 +68,8 @@ else:
     decode = lambda l: enc.decode(l)
 
 def generate_response(prompt):
-    # Wrap the prompt in XML tags
-    formatted_prompt = f"<prompt>{prompt}</prompt>\n<response>"
+    # Format the prompt with the new format
+    formatted_prompt = f"<|prompt|>{prompt}<|response|>"
     
     # Encode the prompt
     input_ids = encode(formatted_prompt)
@@ -84,14 +84,12 @@ def generate_response(prompt):
     # Extract only the response part
     try:
         # Find the start of response
-        response_start = full_response.find('<response>') + len('<response>')
-        # Find the end of response
-        response_end = full_response.find('</response>')
-        if response_end == -1:  # if </response> not found, look for next <prompt>
-            response_end = full_response.find('<prompt>', response_start)
+        response_start = full_response.find('<|response|>') + len('<|response|>')
+        # Find the end of response (only look for <|end|>)
+        response_end = full_response.find('<|end|>', response_start)
         
         # Extract the response
-        if response_end == -1:  # if neither </response> nor <prompt> found
+        if response_end == -1:  # if <|end|> not found
             response = full_response[response_start:].strip()
         else:
             response = full_response[response_start:response_end].strip()
@@ -101,7 +99,12 @@ def generate_response(prompt):
     except Exception:
         response = "I couldn't generate a proper response. Please try again."
     
-    return response
+    # Truncate full_response at the first <|end|> if it exists
+    end_pos = full_response.find('<|end|>')
+    if end_pos != -1:
+        full_response = full_response[:end_pos + len('<|end|>')]
+    
+    return response, full_response
 
 def main():
     print("Welcome to the Red Chamber Chatbot! (Press Ctrl+C to exit)")
@@ -114,8 +117,10 @@ def main():
                 continue
                 
             print("\nGenerating response...")
-            response = generate_response(user_input)
+            response, full_response = generate_response(user_input)
             print("\nChatbot:", response)
+            print("\nFull message with tags:")
+            print(full_response)
             print("-"*50)
             
         except KeyboardInterrupt:

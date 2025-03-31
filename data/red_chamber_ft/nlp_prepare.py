@@ -53,8 +53,8 @@ def extract_dialogues(text):
         
         # 当前是“问”，且下一句是不同人物的“答”
         if is_question(current_dialogue) and not is_question(next_dialogue) and current_speaker != next_speaker:
-            qa_pairs.append("<prompt>" + current_dialogue.replace('\n','') + "</prompt>")
-            qa_pairs.append("<response>" + next_dialogue.replace('\n','') + "</response>")
+            # 使用新的格式组合对话
+            qa_pairs.append("<|prompt|>" + current_dialogue.replace('\n','') + "<|response|>" + next_dialogue.replace('\n','') + "<|end|>")
             i += 2  # 跳过已配对的两句
         else:
             i += 1  # 跳过独白或不匹配的对话
@@ -64,9 +64,8 @@ def extract_dialogues(text):
 # 保存结果到文件
 def save_to_file(qa_pairs, output_path):
     with open(output_path, "w", encoding="utf-8") as f:
-        for i in range(0, len(qa_pairs), 2):  # 每两行为一对
-            f.write(f"{qa_pairs[i]}\n")
-            f.write(f"{qa_pairs[i + 1]}\n")
+        for pair in qa_pairs:
+            f.write(f"{pair}\n")
 
 # 主函数
 def main():

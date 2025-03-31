@@ -1,5 +1,4 @@
-# Configuration for fine-tuning the Red Chamber model on MacBook
-# Reduced context size for CPU training
+# Configuration for fine-tuning the Red Chamber model
 
 import time
 
@@ -10,8 +9,8 @@ init_from = 'resume'
 
 # evaluation and logging
 eval_interval = 250
-eval_iters = 20
-log_interval = 1
+eval_iters = 200
+log_interval = 10
 always_save_checkpoint = False
 
 # wandb logging
@@ -21,14 +20,14 @@ wandb_run_name = 'red-chamber-ft'
 
 # training
 gradient_accumulation_steps = 1
-batch_size = 12
-block_size = 64  # context window size
-max_iters = 6000 # this includes the 2000 in the original config
+batch_size = 64
+block_size = 256  # context window size
+max_iters = 5000
 
 # optimizer
-learning_rate = 3e-4
+learning_rate = 3e-5
 decay_lr = False
 
 # system
-device = 'cpu'
-compile = False
+# device = 'cpu'
+# compile = False
