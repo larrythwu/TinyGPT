@@ -1,0 +1,414 @@
+step 0: train loss 10.9985, val loss 10.9971
+/home/ubuntu/DORC-GPT/train.py:323: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/aten/src/ATen/native/Scalar.cpp:22.)
+  lossf = loss.item() * gradient_accumulation_steps
+iter 0: loss 10.9894, time 14875.83ms, mfu -100.00%
+iter 10: loss 10.1543, time 2556.96ms, mfu 52.66%
+iter 20: loss 9.3595, time 2556.82ms, mfu 52.66%
+iter 30: loss 9.0045, time 2560.59ms, mfu 52.66%
+iter 40: loss 8.7314, time 2566.31ms, mfu 52.64%
+iter 50: loss 7.9804, time 2567.35ms, mfu 52.62%
+iter 60: loss 7.5734, time 2567.83ms, mfu 52.60%
+iter 70: loss 7.3781, time 2570.01ms, mfu 52.58%
+iter 80: loss 7.0021, time 2568.18ms, mfu 52.57%
+iter 90: loss 6.5942, time 2568.27ms, mfu 52.55%
+step 100: train loss 6.2339, val loss 6.2211
+saving checkpoint to out-wiki-zh
+iter 100: loss 6.2143, time 13254.34ms, mfu 48.31%
+iter 110: loss 5.7201, time 2568.69ms, mfu 48.72%
+iter 120: loss 5.5683, time 2567.32ms, mfu 49.10%
+iter 130: loss 5.1626, time 2567.98ms, mfu 49.43%
+iter 140: loss 4.8179, time 2567.68ms, mfu 49.73%
+iter 150: loss 4.5485, time 2567.48ms, mfu 50.00%
+iter 160: loss 4.3045, time 2567.55ms, mfu 50.25%
+iter 170: loss 4.1141, time 2567.94ms, mfu 50.47%
+iter 180: loss 3.8695, time 2568.77ms, mfu 50.66%
+iter 190: loss 4.0556, time 2569.46ms, mfu 50.84%
+step 200: train loss 3.8640, val loss 3.8548
+saving checkpoint to out-wiki-zh
+iter 200: loss 3.8316, time 14220.66ms, mfu 46.70%
+iter 210: loss 3.9321, time 2568.87ms, mfu 47.27%
+iter 220: loss 3.7195, time 2568.66ms, mfu 47.79%
+iter 230: loss 3.7467, time 2568.94ms, mfu 48.25%
+iter 240: loss 3.7425, time 2570.36ms, mfu 48.66%
+iter 250: loss 3.5604, time 2569.82ms, mfu 49.04%
+iter 260: loss 3.5212, time 2569.84ms, mfu 49.37%
+iter 270: loss 3.5483, time 2571.00ms, mfu 49.67%
+iter 280: loss 3.5033, time 2569.32ms, mfu 49.95%
+iter 290: loss 3.5402, time 2570.09ms, mfu 50.19%
+step 300: train loss 3.4895, val loss 3.5017
+saving checkpoint to out-wiki-zh
+iter 300: loss 3.4096, time 14231.38ms, mfu 46.12%
+iter 310: loss 3.4948, time 2568.06ms, mfu 46.75%
+iter 320: loss 3.5079, time 2569.05ms, mfu 47.32%
+iter 330: loss 3.4289, time 2571.35ms, mfu 47.82%
+iter 340: loss 3.4310, time 2569.94ms, mfu 48.28%
+iter 350: loss 3.3282, time 2569.07ms, mfu 48.69%
+iter 360: loss 3.1674, time 2568.50ms, mfu 49.07%
+iter 370: loss 3.0269, time 2572.03ms, mfu 49.40%
+iter 380: loss 3.2668, time 2570.29ms, mfu 49.70%
+iter 390: loss 3.2752, time 2569.74ms, mfu 49.97%
+step 400: train loss 3.2031, val loss 3.2100
+saving checkpoint to out-wiki-zh
+iter 400: loss 3.1814, time 14240.51ms, mfu 45.92%
+iter 410: loss 2.9951, time 2570.02ms, mfu 46.56%
+iter 420: loss 2.9698, time 2569.76ms, mfu 47.15%
+iter 430: loss 3.1821, time 2570.50ms, mfu 47.67%
+iter 440: loss 3.0390, time 2569.89ms, mfu 48.14%
+iter 450: loss 3.0383, time 2569.82ms, mfu 48.57%
+iter 460: loss 3.1990, time 2570.53ms, mfu 48.95%
+iter 470: loss 3.0666, time 2571.74ms, mfu 49.29%
+iter 480: loss 2.9062, time 2569.14ms, mfu 49.60%
+iter 490: loss 3.1247, time 2570.07ms, mfu 49.88%
+step 500: train loss 2.9406, val loss 2.9463
+saving checkpoint to out-wiki-zh
+iter 500: loss 2.9855, time 14115.48ms, mfu 45.85%
+iter 510: loss 2.9937, time 2569.51ms, mfu 46.50%
+iter 520: loss 2.8247, time 2569.77ms, mfu 47.09%
+iter 530: loss 2.9073, time 2570.39ms, mfu 47.62%
+iter 540: loss 2.8311, time 2569.30ms, mfu 48.10%
+iter 550: loss 2.7834, time 2570.59ms, mfu 48.53%
+iter 560: loss 2.8236, time 2570.43ms, mfu 48.92%
+iter 570: loss 2.6547, time 2570.47ms, mfu 49.26%
+iter 580: loss 2.6201, time 2572.15ms, mfu 49.57%
+iter 590: loss 2.8058, time 2571.04ms, mfu 49.85%
+step 600: train loss 2.7018, val loss 2.7291
+saving checkpoint to out-wiki-zh
+iter 600: loss 2.5056, time 14456.44ms, mfu 45.80%
+iter 610: loss 2.4479, time 2568.05ms, mfu 46.46%
+iter 620: loss 2.7013, time 2569.71ms, mfu 47.06%
+iter 630: loss 2.5321, time 2569.38ms, mfu 47.59%
+iter 640: loss 2.6006, time 2570.65ms, mfu 48.07%
+iter 650: loss 2.6134, time 2572.08ms, mfu 48.50%
+iter 660: loss 2.4537, time 2571.60ms, mfu 48.89%
+iter 670: loss 2.5729, time 2570.15ms, mfu 49.24%
+iter 680: loss 2.3813, time 2571.81ms, mfu 49.55%
+iter 690: loss 2.9994, time 2573.04ms, mfu 49.83%
+step 700: train loss 2.4139, val loss 2.4228
+saving checkpoint to out-wiki-zh
+iter 700: loss 2.3227, time 14060.54ms, mfu 45.80%
+iter 710: loss 2.3390, time 2570.92ms, mfu 46.46%
+iter 720: loss 2.3901, time 2570.39ms, mfu 47.05%
+iter 730: loss 2.2871, time 2572.35ms, mfu 47.58%
+iter 740: loss 2.5042, time 2570.06ms, mfu 48.06%
+iter 750: loss 2.0207, time 2571.96ms, mfu 48.49%
+iter 760: loss 2.0972, time 2570.75ms, mfu 48.88%
+iter 770: loss 2.4195, time 2573.54ms, mfu 49.23%
+iter 780: loss 2.1857, time 2572.74ms, mfu 49.54%
+iter 790: loss 2.1004, time 2571.54ms, mfu 49.82%
+step 800: train loss 2.1740, val loss 2.1475
+saving checkpoint to out-wiki-zh
+iter 800: loss 2.2088, time 14086.55ms, mfu 45.79%
+iter 810: loss 1.9611, time 2570.54ms, mfu 46.45%
+iter 820: loss 2.0176, time 2570.96ms, mfu 47.05%
+iter 830: loss 2.1695, time 2573.27ms, mfu 47.57%
+iter 840: loss 1.9355, time 2571.04ms, mfu 48.05%
+iter 850: loss 2.2597, time 2571.79ms, mfu 48.48%
+iter 860: loss 1.8483, time 2571.65ms, mfu 48.87%
+iter 870: loss 2.0149, time 2570.59ms, mfu 49.22%
+iter 880: loss 2.3414, time 2570.82ms, mfu 49.54%
+iter 890: loss 1.9747, time 2571.01ms, mfu 49.82%
+step 900: train loss 2.0160, val loss 2.0238
+saving checkpoint to out-wiki-zh
+iter 900: loss 2.0961, time 14385.92ms, mfu 45.78%
+iter 910: loss 2.2380, time 2570.61ms, mfu 46.44%
+iter 920: loss 2.0942, time 2572.80ms, mfu 47.03%
+iter 930: loss 1.9727, time 2570.43ms, mfu 47.56%
+iter 940: loss 1.9262, time 2573.49ms, mfu 48.04%
+iter 950: loss 2.0102, time 2574.44ms, mfu 48.47%
+iter 960: loss 2.1179, time 2572.99ms, mfu 48.85%
+iter 970: loss 2.0573, time 2574.07ms, mfu 49.20%
+iter 980: loss 1.9619, time 2572.27ms, mfu 49.51%
+iter 990: loss 1.8269, time 2572.91ms, mfu 49.80%
+step 1000: train loss 1.9198, val loss 1.9148
+saving checkpoint to out-wiki-zh
+iter 1000: loss 1.9141, time 14204.84ms, mfu 45.77%
+iter 1010: loss 2.2044, time 2571.06ms, mfu 46.43%
+iter 1020: loss 1.7902, time 2572.21ms, mfu 47.02%
+iter 1030: loss 1.9897, time 2571.27ms, mfu 47.55%
+iter 1040: loss 2.0577, time 2572.91ms, mfu 48.03%
+iter 1050: loss 1.7701, time 2574.38ms, mfu 48.46%
+iter 1060: loss 2.0278, time 2572.12ms, mfu 48.85%
+iter 1070: loss 1.7943, time 2572.56ms, mfu 49.20%
+iter 1080: loss 1.7785, time 2573.30ms, mfu 49.51%
+iter 1090: loss 1.7904, time 2574.60ms, mfu 49.79%
+step 1100: train loss 1.8378, val loss 1.8392
+saving checkpoint to out-wiki-zh
+iter 1100: loss 1.9529, time 14046.93ms, mfu 45.77%
+iter 1110: loss 1.8702, time 2571.34ms, mfu 46.43%
+iter 1120: loss 2.1323, time 2570.75ms, mfu 47.03%
+iter 1130: loss 1.7393, time 2571.16ms, mfu 47.56%
+iter 1140: loss 1.8961, time 2570.71ms, mfu 48.04%
+iter 1150: loss 1.7721, time 2573.04ms, mfu 48.47%
+iter 1160: loss 1.7021, time 2572.83ms, mfu 48.86%
+iter 1170: loss 1.6585, time 2572.24ms, mfu 49.21%
+iter 1180: loss 1.8312, time 2572.38ms, mfu 49.52%
+iter 1190: loss 1.8553, time 2573.39ms, mfu 49.80%
+step 1200: train loss 1.7690, val loss 1.7995
+saving checkpoint to out-wiki-zh
+iter 1200: loss 1.7574, time 13977.21ms, mfu 45.79%
+iter 1210: loss 1.7402, time 2570.49ms, mfu 46.45%
+iter 1220: loss 2.0224, time 2571.91ms, mfu 47.04%
+iter 1230: loss 1.8693, time 2571.57ms, mfu 47.57%
+iter 1240: loss 1.9922, time 2570.95ms, mfu 48.05%
+iter 1250: loss 1.6427, time 2572.63ms, mfu 48.48%
+iter 1260: loss 1.9118, time 2571.36ms, mfu 48.87%
+iter 1270: loss 1.5381, time 2573.58ms, mfu 49.21%
+iter 1280: loss 1.9142, time 2572.46ms, mfu 49.53%
+iter 1290: loss 1.7146, time 2571.06ms, mfu 49.81%
+step 1300: train loss 1.7527, val loss 1.7508
+saving checkpoint to out-wiki-zh
+iter 1300: loss 1.7111, time 13961.22ms, mfu 45.80%
+iter 1310: loss 1.6363, time 2572.30ms, mfu 46.45%
+iter 1320: loss 1.5715, time 2571.63ms, mfu 47.04%
+iter 1330: loss 1.8415, time 2573.06ms, mfu 47.57%
+iter 1340: loss 1.6763, time 2572.13ms, mfu 48.05%
+iter 1350: loss 1.9583, time 2572.78ms, mfu 48.48%
+iter 1360: loss 1.7319, time 2573.38ms, mfu 48.86%
+iter 1370: loss 1.7666, time 2573.93ms, mfu 49.21%
+iter 1380: loss 1.7449, time 2573.91ms, mfu 49.52%
+iter 1390: loss 1.8567, time 2573.31ms, mfu 49.80%
+step 1400: train loss 1.6958, val loss 1.7058
+saving checkpoint to out-wiki-zh
+iter 1400: loss 1.7805, time 14187.97ms, mfu 45.77%
+iter 1410: loss 1.6531, time 2570.60ms, mfu 46.43%
+iter 1420: loss 1.7028, time 2571.88ms, mfu 47.02%
+iter 1430: loss 1.6973, time 2573.09ms, mfu 47.55%
+iter 1440: loss 1.7026, time 2572.93ms, mfu 48.03%
+iter 1450: loss 1.6697, time 2572.65ms, mfu 48.46%
+iter 1460: loss 1.6730, time 2572.19ms, mfu 48.85%
+iter 1470: loss 1.8346, time 2572.52ms, mfu 49.20%
+iter 1480: loss 1.5316, time 2573.13ms, mfu 49.52%
+iter 1490: loss 1.6583, time 2570.95ms, mfu 49.80%
+step 1500: train loss 1.6740, val loss 1.6730
+saving checkpoint to out-wiki-zh
+iter 1500: loss 1.5789, time 14177.80ms, mfu 45.77%
+iter 1510: loss 1.6351, time 2570.83ms, mfu 46.43%
+iter 1520: loss 1.7526, time 2570.65ms, mfu 47.03%
+iter 1530: loss 1.6053, time 2570.44ms, mfu 47.56%
+iter 1540: loss 1.7208, time 2572.53ms, mfu 48.04%
+iter 1550: loss 1.6615, time 2572.80ms, mfu 48.47%
+iter 1560: loss 1.8282, time 2573.10ms, mfu 48.86%
+iter 1570: loss 1.5760, time 2572.25ms, mfu 49.21%
+iter 1580: loss 1.5842, time 2572.40ms, mfu 49.52%
+iter 1590: loss 1.6106, time 2571.77ms, mfu 49.80%
+step 1600: train loss 1.6273, val loss 1.6350
+saving checkpoint to out-wiki-zh
+iter 1600: loss 1.5990, time 14395.29ms, mfu 45.76%
+iter 1610: loss 1.6322, time 2570.46ms, mfu 46.42%
+iter 1620: loss 1.7107, time 2571.51ms, mfu 47.02%
+iter 1630: loss 1.6924, time 2572.70ms, mfu 47.55%
+iter 1640: loss 1.5695, time 2571.84ms, mfu 48.03%
+iter 1650: loss 1.6444, time 2574.20ms, mfu 48.46%
+iter 1660: loss 1.5389, time 2573.34ms, mfu 48.85%
+iter 1670: loss 1.6096, time 2572.85ms, mfu 49.19%
+iter 1680: loss 1.7167, time 2573.79ms, mfu 49.51%
+iter 1690: loss 1.5944, time 2573.26ms, mfu 49.79%
+step 1700: train loss 1.6032, val loss 1.6135
+saving checkpoint to out-wiki-zh
+iter 1700: loss 1.6752, time 14172.10ms, mfu 45.76%
+iter 1710: loss 1.7586, time 2572.37ms, mfu 46.42%
+iter 1720: loss 1.6304, time 2575.36ms, mfu 47.01%
+iter 1730: loss 1.5392, time 2575.64ms, mfu 47.53%
+iter 1740: loss 1.8336, time 2574.22ms, mfu 48.01%
+iter 1750: loss 1.8611, time 2571.46ms, mfu 48.45%
+iter 1760: loss 1.8657, time 2573.19ms, mfu 48.84%
+iter 1770: loss 1.5477, time 2572.92ms, mfu 49.19%
+iter 1780: loss 1.5892, time 2573.53ms, mfu 49.50%
+iter 1790: loss 1.6086, time 2573.40ms, mfu 49.78%
+step 1800: train loss 1.5950, val loss 1.5835
+saving checkpoint to out-wiki-zh
+iter 1800: loss 1.5586, time 13937.75ms, mfu 45.77%
+iter 1810: loss 1.4140, time 2571.21ms, mfu 46.43%
+iter 1820: loss 1.3453, time 2573.99ms, mfu 47.02%
+iter 1830: loss 1.5735, time 2573.72ms, mfu 47.55%
+iter 1840: loss 1.7747, time 2572.32ms, mfu 48.03%
+iter 1850: loss 1.5660, time 2574.96ms, mfu 48.46%
+iter 1860: loss 1.5834, time 2570.80ms, mfu 48.85%
+iter 1870: loss 1.5300, time 2572.57ms, mfu 49.20%
+iter 1880: loss 1.5807, time 2571.21ms, mfu 49.52%
+iter 1890: loss 1.4862, time 2572.31ms, mfu 49.80%
+step 1900: train loss 1.5750, val loss 1.5659
+saving checkpoint to out-wiki-zh
+iter 1900: loss 1.2807, time 14062.96ms, mfu 45.78%
+iter 1910: loss 1.3727, time 2575.00ms, mfu 46.43%
+iter 1920: loss 1.5008, time 2572.97ms, mfu 47.02%
+iter 1930: loss 1.3502, time 2573.69ms, mfu 47.55%
+iter 1940: loss 1.5945, time 2573.84ms, mfu 48.03%
+iter 1950: loss 1.6376, time 2572.98ms, mfu 48.46%
+iter 1960: loss 1.4531, time 2573.46ms, mfu 48.84%
+iter 1970: loss 1.7027, time 2575.92ms, mfu 49.19%
+iter 1980: loss 1.4510, time 2572.83ms, mfu 49.50%
+iter 1990: loss 1.5745, time 2574.07ms, mfu 49.78%
+step 2000: train loss 1.5418, val loss 1.5583
+saving checkpoint to out-wiki-zh
+iter 2000: loss 1.5359, time 13925.75ms, mfu 45.77%
+iter 2010: loss 1.6254, time 2570.99ms, mfu 46.43%
+iter 2020: loss 1.5506, time 2571.52ms, mfu 47.03%
+iter 2030: loss 1.6664, time 2573.21ms, mfu 47.56%
+iter 2040: loss 1.5458, time 2575.77ms, mfu 48.03%
+iter 2050: loss 1.6074, time 2573.99ms, mfu 48.46%
+iter 2060: loss 1.4610, time 2573.59ms, mfu 48.84%
+iter 2070: loss 1.4573, time 2573.47ms, mfu 49.19%
+iter 2080: loss 1.5017, time 2573.16ms, mfu 49.51%
+iter 2090: loss 1.5336, time 2574.16ms, mfu 49.79%
+step 2100: train loss 1.5179, val loss 1.5170
+saving checkpoint to out-wiki-zh
+iter 2100: loss 1.3757, time 13929.68ms, mfu 45.77%
+iter 2110: loss 1.6684, time 2571.71ms, mfu 46.43%
+iter 2120: loss 1.4501, time 2572.31ms, mfu 47.03%
+iter 2130: loss 1.4532, time 2574.51ms, mfu 47.55%
+iter 2140: loss 1.4757, time 2573.29ms, mfu 48.03%
+iter 2150: loss 1.5376, time 2574.38ms, mfu 48.46%
+iter 2160: loss 1.5368, time 2574.01ms, mfu 48.84%
+iter 2170: loss 1.3718, time 2573.70ms, mfu 49.19%
+iter 2180: loss 1.5194, time 2573.54ms, mfu 49.51%
+iter 2190: loss 1.6576, time 2572.76ms, mfu 49.79%
+step 2200: train loss 1.4996, val loss 1.4984
+saving checkpoint to out-wiki-zh
+iter 2200: loss 1.4298, time 13966.93ms, mfu 45.77%
+iter 2210: loss 1.6897, time 2572.34ms, mfu 46.43%
+iter 2220: loss 1.6076, time 2575.50ms, mfu 47.02%
+iter 2230: loss 1.8578, time 2575.17ms, mfu 47.54%
+iter 2240: loss 1.5715, time 2573.11ms, mfu 48.02%
+iter 2250: loss 1.5210, time 2573.52ms, mfu 48.45%
+iter 2260: loss 1.6978, time 2572.80ms, mfu 48.84%
+iter 2270: loss 1.5103, time 2575.62ms, mfu 49.19%
+iter 2280: loss 1.4321, time 2574.36ms, mfu 49.50%
+iter 2290: loss 1.4352, time 2573.72ms, mfu 49.78%
+step 2300: train loss 1.4822, val loss 1.4962
+saving checkpoint to out-wiki-zh
+iter 2300: loss 1.4129, time 14015.94ms, mfu 45.76%
+iter 2310: loss 1.4554, time 2571.86ms, mfu 46.42%
+iter 2320: loss 1.4397, time 2572.83ms, mfu 47.01%
+iter 2330: loss 1.6467, time 2573.96ms, mfu 47.54%
+iter 2340: loss 1.5138, time 2574.05ms, mfu 48.02%
+iter 2350: loss 1.4776, time 2574.08ms, mfu 48.45%
+iter 2360: loss 1.7187, time 2574.49ms, mfu 48.84%
+iter 2370: loss 1.3334, time 2571.84ms, mfu 49.19%
+iter 2380: loss 1.6660, time 2572.87ms, mfu 49.50%
+iter 2390: loss 1.3429, time 2571.48ms, mfu 49.79%
+step 2400: train loss 1.5027, val loss 1.5080
+saving checkpoint to out-wiki-zh
+iter 2400: loss 1.7068, time 13937.04ms, mfu 45.78%
+iter 2410: loss 1.2964, time 2571.01ms, mfu 46.44%
+iter 2420: loss 1.4836, time 2573.45ms, mfu 47.03%
+iter 2430: loss 1.4303, time 2574.34ms, mfu 47.55%
+iter 2440: loss 1.4408, time 2574.58ms, mfu 48.03%
+iter 2450: loss 1.4948, time 2573.01ms, mfu 48.46%
+iter 2460: loss 1.4526, time 2574.90ms, mfu 48.84%
+iter 2470: loss 1.7360, time 2577.16ms, mfu 49.18%
+iter 2480: loss 1.5138, time 2576.82ms, mfu 49.49%
+iter 2490: loss 1.4425, time 2573.78ms, mfu 49.77%
+step 2500: train loss 1.4631, val loss 1.4574
+saving checkpoint to out-wiki-zh
+iter 2500: loss 1.4615, time 14008.45ms, mfu 45.76%
+iter 2510: loss 1.3818, time 2572.29ms, mfu 46.42%
+iter 2520: loss 1.5188, time 2574.24ms, mfu 47.01%
+iter 2530: loss 1.3757, time 2575.71ms, mfu 47.53%
+iter 2540: loss 1.5054, time 2575.14ms, mfu 48.01%
+iter 2550: loss 1.4661, time 2574.25ms, mfu 48.44%
+iter 2560: loss 1.2298, time 2574.92ms, mfu 48.83%
+iter 2570: loss 1.2253, time 2573.58ms, mfu 49.18%
+iter 2580: loss 1.6216, time 2572.58ms, mfu 49.49%
+iter 2590: loss 1.5469, time 2572.64ms, mfu 49.78%
+step 2600: train loss 1.4428, val loss 1.4658
+saving checkpoint to out-wiki-zh
+iter 2600: loss 1.5307, time 14164.92ms, mfu 45.75%
+iter 2610: loss 1.5484, time 2572.15ms, mfu 46.41%
+iter 2620: loss 1.5403, time 2574.28ms, mfu 47.00%
+iter 2630: loss 1.4010, time 2575.64ms, mfu 47.53%
+iter 2640: loss 1.4206, time 2574.48ms, mfu 48.01%
+iter 2650: loss 1.3143, time 2572.70ms, mfu 48.44%
+iter 2660: loss 1.5289, time 2573.22ms, mfu 48.83%
+iter 2670: loss 1.4830, time 2572.06ms, mfu 49.18%
+iter 2680: loss 1.4229, time 2573.56ms, mfu 49.50%
+iter 2690: loss 1.3275, time 2572.28ms, mfu 49.78%
+step 2700: train loss 1.4383, val loss 1.4366
+saving checkpoint to out-wiki-zh
+iter 2700: loss 1.4883, time 14153.03ms, mfu 45.75%
+iter 2710: loss 1.4373, time 2573.63ms, mfu 46.41%
+iter 2720: loss 1.2969, time 2573.83ms, mfu 47.00%
+iter 2730: loss 1.3265, time 2575.14ms, mfu 47.53%
+iter 2740: loss 1.3618, time 2574.76ms, mfu 48.01%
+iter 2750: loss 1.5855, time 2574.77ms, mfu 48.44%
+iter 2760: loss 1.3649, time 2574.42ms, mfu 48.82%
+iter 2770: loss 1.2907, time 2574.67ms, mfu 49.17%
+iter 2780: loss 1.5238, time 2575.08ms, mfu 49.48%
+iter 2790: loss 1.6161, time 2574.25ms, mfu 49.77%
+step 2800: train loss 1.4293, val loss 1.4271
+saving checkpoint to out-wiki-zh
+iter 2800: loss 1.5152, time 14399.46ms, mfu 45.73%
+iter 2810: loss 1.2658, time 2571.59ms, mfu 46.39%
+iter 2820: loss 1.4666, time 2571.70ms, mfu 46.99%
+iter 2830: loss 1.2475, time 2573.51ms, mfu 47.52%
+iter 2840: loss 1.4465, time 2573.28ms, mfu 48.00%
+iter 2850: loss 1.4569, time 2573.86ms, mfu 48.43%
+iter 2860: loss 1.5119, time 2572.75ms, mfu 48.82%
+iter 2870: loss 1.5287, time 2575.64ms, mfu 49.17%
+iter 2880: loss 1.2494, time 2574.59ms, mfu 49.48%
+iter 2890: loss 1.5421, time 2574.96ms, mfu 49.76%
+step 2900: train loss 1.4054, val loss 1.4205
+saving checkpoint to out-wiki-zh
+iter 2900: loss 1.5922, time 14052.28ms, mfu 45.75%
+iter 2910: loss 1.4414, time 3847.63ms, mfu 44.67%
+iter 2920: loss 1.4440, time 2573.71ms, mfu 45.44%
+iter 2930: loss 1.3479, time 2571.92ms, mfu 46.13%
+iter 2940: loss 1.3367, time 2572.37ms, mfu 46.75%
+iter 2950: loss 1.4748, time 2574.13ms, mfu 47.31%
+iter 2960: loss 1.2867, time 2575.01ms, mfu 47.81%
+iter 2970: loss 1.4739, time 2573.27ms, mfu 48.26%
+iter 2980: loss 1.3904, time 2575.93ms, mfu 48.66%
+iter 2990: loss 1.4548, time 2573.49ms, mfu 49.03%
+step 3000: train loss 1.4206, val loss 1.4118
+saving checkpoint to out-wiki-zh
+iter 3000: loss 1.3677, time 14170.59ms, mfu 45.07%
+iter 3010: loss 1.3744, time 2574.12ms, mfu 45.80%
+iter 3020: loss 1.2717, time 2573.69ms, mfu 46.45%
+iter 3030: loss 1.4493, time 2573.58ms, mfu 47.04%
+iter 3040: loss 1.2779, time 2573.88ms, mfu 47.57%
+iter 3050: loss 1.1894, time 2575.74ms, mfu 48.04%
+iter 3060: loss 1.5371, time 2572.89ms, mfu 48.47%
+iter 3070: loss 1.4208, time 2575.02ms, mfu 48.85%
+iter 3080: loss 1.2270, time 2574.59ms, mfu 49.20%
+iter 3090: loss 1.6215, time 2572.69ms, mfu 49.51%
+Traceback (most recent call last):
+  File "/home/ubuntu/DORC-GPT/train.py", line 300, in <module>
+    logits, loss = model(X, Y)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py", line 658, in _fn
+    return fn(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ubuntu/DORC-GPT/model.py", line 170, in forward
+    def forward(self, idx, targets=None):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py", line 849, in _fn
+    return fn(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/_functorch/aot_autograd.py", line 1207, in forward
+    return compiled_fn(full_args)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 317, in runtime_wrapper
+    all_outs = call_func_at_runtime_with_args(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/utils.py", line 126, in call_func_at_runtime_with_args
+    out = normalize_as_list(f(args))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/utils.py", line 100, in g
+    return f(*args)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/autograd/function.py", line 575, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 1979, in forward
+    fw_outs = call_func_at_runtime_with_args(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/utils.py", line 126, in call_func_at_runtime_with_args
+    out = normalize_as_list(f(args))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 497, in wrapper
+    return compiled_fn(runtime_args)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/_inductor/output_code.py", line 558, in __call__
+    return self.current_callable(inputs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/_inductor/utils.py", line 2435, in run
+    return model(new_inputs)
+  File "/tmp/torchinductor_ubuntu/mu/cmui3g4dl4ezm6bbmvt6pw37ysinmubp6u56k7yqblphuwpulpmq.py", line 1668, in call
+    extern_kernels.mm(reinterpret_tensor(buf100, (12288, 768), (768, 1), 0), buf99, out=buf101)
+KeyboardInterrupt

@@ -3,7 +3,7 @@
 # $ torchrun --standalone --nproc_per_node=8 train.py config/train_gpt2.py
 
 # I/O
-out_dir = 'out-wiki_zh'
+out_dir = 'out-wiki-zh'
 dataset = 'wiki_zh'
 
 wandb_log = True
@@ -17,17 +17,13 @@ block_size = 1024
 gradient_accumulation_steps = 5 * 8
 
 # this makes total number of tokens be 300B
-max_iters = 600000
-lr_decay_iters = 600000
+max_iters = 60000
+lr_decay_iters = 60000
 
 # eval stuff
-eval_interval = 1000
+eval_interval = 100
 eval_iters = 200
 log_interval = 10
 
 # weight decay
 weight_decay = 1e-1
-
-max_iters = 10
-device = 'cpu'
-compile = False

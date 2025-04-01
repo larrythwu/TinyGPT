@@ -1,0 +1,15 @@
+{"time":"2025-04-01T01:37:55.864609054Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/ubuntu/DORC-GPT/wandb/run-20250401_013755-wte91pfj/logs/debug-core.log"}
+{"time":"2025-04-01T01:37:55.968190753Z","level":"INFO","msg":"created new stream","id":"wte91pfj"}
+{"time":"2025-04-01T01:37:55.968244934Z","level":"INFO","msg":"stream: started","id":"wte91pfj"}
+{"time":"2025-04-01T01:37:55.968304265Z","level":"INFO","msg":"writer: Do: started","stream_id":"wte91pfj"}
+{"time":"2025-04-01T01:37:55.968339966Z","level":"INFO","msg":"sender: started","stream_id":"wte91pfj"}
+{"time":"2025-04-01T01:37:55.968384688Z","level":"INFO","msg":"handler: started","stream_id":"wte91pfj"}
+{"time":"2025-04-01T01:37:56.164421919Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-01T03:56:43.852625894Z","level":"INFO","msg":"stream: closing","id":"wte91pfj"}
+{"time":"2025-04-01T03:56:43.852664945Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-01T03:56:43.853434471Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-01T03:56:44.30380448Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-01T03:56:44.447550192Z","level":"INFO","msg":"handler: closed","stream_id":"wte91pfj"}
+{"time":"2025-04-01T03:56:44.447580763Z","level":"INFO","msg":"writer: Close: closed","stream_id":"wte91pfj"}
+{"time":"2025-04-01T03:56:44.447611514Z","level":"INFO","msg":"sender: closed","stream_id":"wte91pfj"}
+{"time":"2025-04-01T03:56:44.447714956Z","level":"INFO","msg":"stream: closed","id":"wte91pfj"}

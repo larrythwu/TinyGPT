@@ -1,0 +1,7 @@
+{"time":"2025-04-01T04:00:30.683740654Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/ubuntu/DORC-GPT/wandb/run-20250401_040030-9oso8ub6/logs/debug-core.log"}
+{"time":"2025-04-01T04:00:30.787438186Z","level":"INFO","msg":"created new stream","id":"9oso8ub6"}
+{"time":"2025-04-01T04:00:30.787502508Z","level":"INFO","msg":"stream: started","id":"9oso8ub6"}
+{"time":"2025-04-01T04:00:30.787535998Z","level":"INFO","msg":"writer: Do: started","stream_id":"9oso8ub6"}
+{"time":"2025-04-01T04:00:30.787547919Z","level":"INFO","msg":"sender: started","stream_id":"9oso8ub6"}
+{"time":"2025-04-01T04:00:30.787583479Z","level":"INFO","msg":"handler: started","stream_id":"9oso8ub6"}
+{"time":"2025-04-01T04:00:30.955748368Z","level":"INFO","msg":"Starting system monitor"}

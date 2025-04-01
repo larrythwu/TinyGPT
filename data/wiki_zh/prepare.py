@@ -73,9 +73,9 @@ if __name__ == '__main__':
             idx += len(arr_batch)
         arr.flush()
 
-    # train.bin is ~17GB, val.bin ~8.5MB
-    # train has ~9B tokens (9,035,582,198)
-    # val has ~4M tokens (4,434,897)
+    # train.bin is ~3.8GB, val.bin ~2.2MB
+    # train has ~1.9B tokens
+    # val has ~1.1M tokens
 
     # to read the bin files later, e.g. with numpy:
     # m = np.memmap('train.bin', dtype=np.uint16, mode='r')

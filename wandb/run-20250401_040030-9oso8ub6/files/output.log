@@ -1,0 +1,78 @@
+step 3000: train loss 1.2797, val loss 1.4175
+/home/ubuntu/DORC-GPT/train.py:323: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/aten/src/ATen/native/Scalar.cpp:22.)
+  lossf = loss.item() * gradient_accumulation_steps
+iter 3000: loss 1.5131, time 3813.24ms, mfu -100.00%
+iter 3001: loss 1.3557, time 17.20ms, mfu -100.00%
+iter 3002: loss 1.2571, time 64.65ms, mfu -100.00%
+iter 3003: loss 1.4393, time 66.63ms, mfu -100.00%
+iter 3004: loss 1.4377, time 66.20ms, mfu -100.00%
+step 3005: train loss 1.4339, val loss 1.5542
+iter 3005: loss 1.1960, time 110.67ms, mfu 30.42%
+iter 3006: loss 1.4600, time 66.37ms, mfu 32.45%
+iter 3007: loss 1.2574, time 66.95ms, mfu 34.23%
+iter 3008: loss 1.3816, time 66.80ms, mfu 35.85%
+iter 3009: loss 1.1515, time 66.96ms, mfu 37.29%
+step 3010: train loss 1.4162, val loss 1.4257
+iter 3010: loss 1.6101, time 110.08ms, mfu 36.62%
+iter 3011: loss 1.2235, time 66.88ms, mfu 37.99%
+iter 3012: loss 1.4586, time 66.83ms, mfu 39.23%
+iter 3013: loss 1.3243, time 66.51ms, mfu 40.37%
+iter 3014: loss 1.2796, time 66.77ms, mfu 41.37%
+step 3015: train loss 1.4282, val loss 1.4180
+iter 3015: loss 1.4157, time 110.13ms, mfu 40.29%
+iter 3016: loss 1.5301, time 66.82ms, mfu 41.30%
+iter 3017: loss 1.4835, time 67.04ms, mfu 42.19%
+iter 3018: loss 1.3093, time 66.27ms, mfu 43.05%
+iter 3019: loss 1.4154, time 66.78ms, mfu 43.79%
+step 3020: train loss 1.4207, val loss 1.3670
+saving checkpoint to out-wiki-zh-ft
+iter 3020: loss 1.5174, time 3256.92ms, mfu 39.51%
+iter 3021: loss 1.5033, time 77.41ms, mfu 39.91%
+iter 3022: loss 1.3681, time 78.81ms, mfu 40.19%
+iter 3023: loss 1.3206, time 66.87ms, mfu 41.21%
+iter 3024: loss 1.3660, time 66.91ms, mfu 42.12%
+step 3025: train loss 1.2760, val loss 1.3812
+iter 3025: loss 1.4287, time 110.25ms, mfu 40.96%
+iter 3026: loss 1.3292, time 66.76ms, mfu 41.91%
+iter 3027: loss 1.4219, time 66.48ms, mfu 42.78%
+iter 3028: loss 1.5250, time 66.70ms, mfu 43.55%
+iter 3029: loss 1.3124, time 66.81ms, mfu 44.23%
+step 3030: train loss 1.3409, val loss 1.3277
+saving checkpoint to out-wiki-zh-ft
+iter 3030: loss 1.4047, time 3022.91ms, mfu 39.92%
+iter 3031: loss 1.3076, time 77.47ms, mfu 40.27%
+iter 3032: loss 1.3927, time 76.15ms, mfu 40.67%
+iter 3033: loss 1.3654, time 75.94ms, mfu 41.03%
+iter 3034: loss 1.3267, time 74.76ms, mfu 41.43%
+step 3035: train loss 1.5230, val loss 1.5186
+iter 3035: loss 1.4997, time 110.91ms, mfu 40.33%
+iter 3036: loss 1.4935, time 67.24ms, mfu 41.30%
+iter 3037: loss 1.5293, time 66.92ms, mfu 42.20%
+iter 3038: loss 1.4631, time 66.69ms, mfu 43.03%
+iter 3039: loss 1.4156, time 66.37ms, mfu 43.80%
+step 3040: train loss 1.3399, val loss 1.2763
+saving checkpoint to out-wiki-zh-ft
+Traceback (most recent call last):
+  File "/home/ubuntu/DORC-GPT/train.py", line 286, in <module>
+    torch.save(checkpoint, os.path.join(out_dir, 'ckpt.pt'))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/serialization.py", line 965, in save
+    _save(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/serialization.py", line 1264, in _save
+    storage = storage.cpu()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/storage.py", line 262, in cpu
+    return torch.UntypedStorage(self.size()).copy_(self, False)
+KeyboardInterrupt
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x76588064f880>
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/wandb/sdk/lib/service_connection.py", line 94, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/wandb/sdk/lib/service_connection.py", line 226, in teardown
+    self._router.join()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/wandb/sdk/interface/router.py", line 75, in join
+    self._thread.join()
+  File "/usr/lib/python3.10/threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt:
