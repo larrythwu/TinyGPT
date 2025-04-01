@@ -1,0 +1,100 @@
+<|prompt|>谁收到了他们的母亲的信息？<|response|>一个仆人。<|end|>
+<|prompt|>是谁被一个传递消息的仆人告知回家？<|response|>一个仆人。<|end|>
+<|prompt|>谁被告知有一封由马车送来的信？<|response|>一个仆人。<|end|>
+<|prompt|>谁被他们母亲的信息要求立即离开？<|response|>一个仆人。<|end|>
+<|prompt|>谁被一位仆人打断了，告知他们母亲的消息？<|response|>一个仆人。<|end|>
+<|prompt|>这个仆人的信息是针对谁发出的？<|response|>一条给我留言的信息。<|end|>
+<|prompt|>2) 由仆人所传递的信息要求谁回家？<|response|>一条给我留言的信息。<|end|>
+<|prompt|>3) 是哪个人的计划因信件的到来而受影响？<|response|>一条给我留言的信息。<|end|>
+<|prompt|>4）主人公收到的信息中提到了谁的离开建议？<|response|>一条给我留言的信息。<|end|>
+<|prompt|>5）谁通过仆人的消息知道了信件的到来？<|response|>一条给我留言的信息。<|end|>
+<|prompt|>罗格斯大学是何时成为一所大学的？<|response|>1924年。<|end|>
+<|prompt|>罗格斯大学获得大学地位是在何时？<|response|>1924年。<|end|>
+<|prompt|>鲁特格斯大学何时成为一所完全成熟的大学？<|response|>1924年。<|end|>
+<|prompt|>罗格斯大学何时发展成为一所综合性公立研究大学？<|response|>1924年。<|end|>
+<|prompt|>勒特格斯大学何时引入研究生教育以致其成为大学的地位？<|response|>1924年。<|end|>
+<|prompt|>罗格斯大学位于哪个州？<|response|>新泽西州<|end|>
+<|prompt|>罗格斯大学位于哪里？<|response|>新泽西州<|end|>
+<|prompt|>鲁特格斯大学位于哪里？<|response|>新泽西州<|end|>
+<|prompt|>Rutgers大学位于哪个州？<|response|>新泽西州<|end|>
+<|prompt|>"Rutgers大学所在的州是什么？"<|response|>新泽西州<|end|>
+<|prompt|>罗格斯新泽西州立大学的另一个名称是什么？<|response|>罗格斯大学，简称罗格斯或RU。<|end|>
+<|prompt|>人们通常如何称呼罗格斯大学？<|response|>罗格斯大学，简称罗格斯或RU。<|end|>
+<|prompt|>这个位于新泽西州的高等学府常用的名称有哪些？<|response|>罗格斯大学，简称罗格斯或RU。<|end|>
+<|prompt|>人们在提到罗格斯大学时使用的一些别名是什么？<|response|>罗格斯大学，简称罗格斯或RU。<|end|>
+<|prompt|>新泽西州最大的高等教育机构有哪些非正式名称？<|response|>罗格斯大学，简称罗格斯或RU。<|end|>
+<|prompt|>罗格斯大学位于哪个国家？<|response|>美国<|end|>
+<|prompt|>罗格斯大学所在的国家是哪个？<|response|>美国<|end|>
+<|prompt|>罗格斯大学位于哪里？<|response|>美国<|end|>
+<|prompt|>罗格斯大学位于哪个国家？<|response|>美国<|end|>
+<|prompt|>什么国家拥有罗格斯大学？<|response|>美国<|end|>
+<|prompt|>罗格斯大学是新泽西州最大的高等教育机构吗？<|response|>抱歉，"no"已经是中文单词"不"的拼音了，本身没有需要翻译的意思。<|end|>
+<|prompt|>2. 鲁特格斯大学在新泽西州与其他大学相比有多大？<|response|>抱歉，"no"已经是中文单词"不"的拼音了，本身没有需要翻译的意思。<|end|>
+<|prompt|>新泽西州是否有比罗格斯大的大学？<|response|>抱歉，"no"已经是中文单词"不"的拼音了，本身没有需要翻译的意思。<|end|>
+<|prompt|>4. 相对于新泽西其他高等教育机构，罗格斯大学在规模上排名如何？<|response|>抱歉，"no"已经是中文单词"不"的拼音了，本身没有需要翻译的意思。<|end|>
+<|prompt|>5. 你能说出新泽西州有哪些大学的注册人数比罗格斯大学更高吗？<|response|>抱歉，"no"已经是中文单词"不"的拼音了，本身没有需要翻译的意思。<|end|>
+<|prompt|>1. Rutgers是什么类型的大学？<|response|>both: 两个都<|end|>
+<|prompt|>2. 罗格斯大学是公立还是私立资助的？<|response|>both: 两个都<|end|>
+<|prompt|>3. 鲁特格斯大学是私立还是公立机构？<|response|>both: 两个都<|end|>
+<|prompt|>4. 罗格斯大学是公立还是私立的？<|response|>both: 两个都<|end|>
+<|prompt|>5. 罗格斯大学是私立还是公立机构的分类是什么？<|response|>both: 两个都<|end|>
+<|prompt|>吉米告诉她的老师了什么，她为什么哭了？<|response|>他不得不搬家。<|end|>
+<|prompt|>为什么Jimmy的家人要离开他们的房子？<|response|>他不得不搬家。<|end|>
+<|prompt|>吉米家为什么搬家？<|response|>他不得不搬家。<|end|>
+<|prompt|>詹米的父亲发生了什么事情，导致他们家搬迁了？<|response|>他不得不搬家。<|end|>
+<|prompt|>你能解释导致吉米不得不搬家的情况吗？<|response|>他不得不搬家。<|end|>
+<|prompt|>吉米在哭泣中对詹姆斯先生说了什么关于他们家庭状况的事情？<|response|>他的爸爸失业了，现在我们没有足够的钱来维持在我们家的生活。<|end|>
+<|prompt|>当向老师詹姆斯先生倾诉时，吉米为什么流泪了呢？<|response|>他的爸爸失业了，现在我们没有足够的钱来维持在我们家的生活。<|end|>
+<|prompt|>吉米向詹姆斯先生透露了关于她家庭情况的什么事情？<|response|>他的爸爸失业了，现在我们没有足够的钱来维持在我们家的生活。<|end|>
+<|prompt|>吉米向詹姆斯先生分享了她家庭的财务状况是什么？<|response|>他的爸爸失业了，现在我们没有足够的钱来维持在我们家的生活。<|end|>
+<|prompt|>为什么吉米与她的老师詹姆斯先生交谈时感情激动？<|response|>他的爸爸失业了，现在我们没有足够的钱来维持在我们家的生活。<|end|>
+<|prompt|>帮我翻译成中文，直接返回给我翻译结果：帕姆后悔把吉米的情况告诉她的同学们。<|response|>是的<|end|>
+<|prompt|>“帕姆讲述听到的事情感到不好意思”，帕姆听到了关于吉米的什么事情？<|response|>是的<|end|>
+<|prompt|>帕姆告诉同班同学吉米的状况后结果如何？<|response|>是的<|end|>
+<|prompt|>当她的同学问她爸爸的工作时，Jimmy有什么反应？<|response|>是的<|end|>
+<|prompt|>帕姆是否预料到她的同学们因她家庭的处境而嘲笑吉米？<|response|>是的<|end|>
+<|prompt|>1. Pam后悔分享她听到的Jimmy的情况吗？<|response|>我是AI语言模型，您给出的“PAm”没有明确的上下文或含义，因此无法正确翻译。请提供更多信息或选择其他需要翻译的内容。<|end|>
+<|prompt|>2. 帕姆是否犹豫要告诉卡罗尔关于吉米的父亲失去工作的事情？<|response|>我是AI语言模型，您给出的“PAm”没有明确的上下文或含义，因此无法正确翻译。请提供更多信息或选择其他需要翻译的内容。<|end|>
+<|prompt|>3. 帕姆会因为与同学分享吉米的私人信息而感到内疚吗？<|response|>我是AI语言模型，您给出的“PAm”没有明确的上下文或含义，因此无法正确翻译。请提供更多信息或选择其他需要翻译的内容。<|end|>
+<|prompt|>4. Pam 是否考虑过与他人分享吉米情况可能带来的负面后果？<|response|>我是AI语言模型，您给出的“PAm”没有明确的上下文或含义，因此无法正确翻译。请提供更多信息或选择其他需要翻译的内容。<|end|>
+<|prompt|>5. 帕姆是否希望自己没有与同学分享吉米的情况，而是将其保留给自己？<|response|>我是AI语言模型，您给出的“PAm”没有明确的上下文或含义，因此无法正确翻译。请提供更多信息或选择其他需要翻译的内容。<|end|>
+<|prompt|>在听完Jimmy与James先生的谈话后，Pam去了哪里？<|response|>餐厅<|end|>
+<|prompt|>帕姆在哪里遇到卡罗尔并分享她听到的关于吉米家庭的事情？<|response|>餐厅<|end|>
+<|prompt|>在偷听了Jimmy和James先生的对话后，Pam在哪里遇到了Carol？<|response|>餐厅<|end|>
+<|prompt|>在从詹姆斯先生那里了解了吉米的情况后，帕姆将这个信息透露给卡罗尔的地方在哪里？<|response|>餐厅<|end|>
+<|prompt|>帕姆在哪里把她从吉米与詹姆斯先生的对话中听到的内容泄露给卡罗尔的？<|response|>餐厅<|end|>
+<|prompt|>帮我翻译成中文：Pam是否与Carol分享了关于Jimmy的信息？<|response|>是的<|end|>
+<|prompt|>2. Pam有没有对Carol提到过Jimmy的事情？<|response|>是的<|end|>
+<|prompt|>3. 帕姆是否向卡罗透露过有关吉米的任何细节？<|response|>是的<|end|>
+<|prompt|>4. Pam向Carol透露了有关Jimmy的事情吗？<|response|>是的<|end|>
+<|prompt|>5. Pam是否向Carol传递了任何有关Jimmy的情况的信息？<|response|>是的<|end|>
+<|prompt|>澳大利亚的首都是哪个城市？<|response|>堪培拉<|end|>
+<|prompt|>澳大利亚的首都是什么名字？<|response|>堪培拉<|end|>
+<|prompt|>哪个城市被指定为澳大利亚的首都？<|response|>堪培拉<|end|>
+<|prompt|>澳大利亚的首都位于哪个城市？<|response|>堪培拉<|end|>
+<|prompt|>澳大利亚的首都是哪里？它位于哪里？<|response|>堪培拉<|end|>
+<|prompt|>澳大利亚人口最多的两个城市是哪两个？<|response|>悉尼和墨尔本<|end|>
+<|prompt|>澳大利亚哪两个城市的人口最多？<|response|>悉尼和墨尔本<|end|>
+<|prompt|>澳大利亚人口最多的前两个大城市是哪两个？<|response|>悉尼和墨尔本<|end|>
+<|prompt|>以人口为基础，澳大利亚最大的两个城市区域是哪些？<|response|>悉尼和墨尔本<|end|>
+<|prompt|>列举澳大利亚人口最多的两个城市的名称。<|response|>悉尼和墨尔本<|end|>
+<|prompt|>坐落在堪培拉的人口数量是多少？<|response|>403,468的翻译结果为“四十万三千四百六十八”。<|end|>
+<|prompt|>目前居住在堪培拉的居民人数是多少？<|response|>403,468的翻译结果为“四十万三千四百六十八”。<|end|>
+<|prompt|>有多少人称堪培拉为家？<|response|>403,468的翻译结果为“四十万三千四百六十八”。<|end|>
+<|prompt|>堪培拉的预计人口是多少？<|response|>403,468的翻译结果为“四十万三千四百六十八”。<|end|>
+<|prompt|>坎培拉市居住的总人口数量是多少？<|response|>403,468的翻译结果为“四十万三千四百六十八”。<|end|>
+<|prompt|>堪培拉是澳大利亚最大的内陆城市吗？<|response|>是的。<|end|>
+<|prompt|>堪培拉是澳大利亚所有内陆城市中最大的吗？<|response|>是的。<|end|>
+<|prompt|>澳大利亚内陆城市中，堪培拉的人口相比其他城市如何？<|response|>是的。<|end|>
+<|prompt|>堪培拉的人口与澳大利亚其他内陆城市相比如何？<|response|>是的。<|end|>
+<|prompt|>堪培拉在澳大利亚内陆城市中人口排名是多少？<|response|>是的。<|end|>
+<|prompt|>堪培拉在人口规模方面的排名是什么？<|response|>第八的<|end|>
+<|prompt|>"堪培拉的人口与其他澳大利亚城市相比如何？"<|response|>第八的<|end|>
+<|prompt|>"堪培拉是澳大利亚最大的城市之一吗？"<|response|>第八的<|end|>
+<|prompt|>澳大利亚最大城市列表中堪培拉的排名是多少？<|response|>第八的<|end|>
+<|prompt|>在所有澳大利亚的城市中，堪培拉在大小方面排名如何？<|response|>第八的<|end|>
+<|prompt|>用于指称居住在堪培拉的人的术语是什么？<|response|>Canberran指的是居住或来自澳大利亚首都堪培拉的人。<|end|>
+<|prompt|>在澳大利亚的首都居住的人被称为什么？<|response|>Canberran指的是居住或来自澳大利亚首都堪培拉的人。<|end|>
+<|prompt|>你怎么称呼一个居住在澳大利亚第八大城市的人？<|response|>Canberran指的是居住或来自澳大利亚首都堪培拉的人。<|end|>
+<|prompt|>谁是居住在澳大利亚最大的内陆城市的人的称呼？<|response|>Canberran指的是居住或来自澳大利亚首都堪培拉的人。<|end|>
+<|prompt|>“如何描述居住在澳大利亚首都领地北端的人？”<|response|>Canberran指的是居住或来自澳大利亚首都堪培拉的人。<|end|>

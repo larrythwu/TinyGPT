@@ -1,0 +1,174 @@
+step 17500: train loss 1.2796, val loss 1.2841
+/home/ubuntu/DORC-GPT/train.py:323: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/aten/src/ATen/native/Scalar.cpp:22.)
+  lossf = loss.item() * gradient_accumulation_steps
+iter 17500: loss 1.3499, time 12316.84ms, mfu -100.00%
+iter 17510: loss 0.8581, time 130.01ms, mfu 51.79%
+iter 17520: loss 0.8062, time 129.89ms, mfu 51.79%
+iter 17530: loss 0.7779, time 129.52ms, mfu 51.81%
+iter 17540: loss 0.7958, time 129.34ms, mfu 51.84%
+iter 17550: loss 0.7709, time 130.39ms, mfu 51.82%
+iter 17560: loss 0.7115, time 130.39ms, mfu 51.80%
+iter 17570: loss 0.6728, time 130.12ms, mfu 51.79%
+iter 17580: loss 0.6945, time 130.56ms, mfu 51.77%
+iter 17590: loss 0.6035, time 129.50ms, mfu 51.79%
+step 17600: train loss 0.6745, val loss 0.6746
+saving checkpoint to out-wiki-zh-ft
+iter 17600: loss 0.6851, time 11764.88ms, mfu 46.67%
+iter 17610: loss 0.7013, time 130.03ms, mfu 47.18%
+iter 17620: loss 0.6268, time 130.38ms, mfu 47.63%
+iter 17630: loss 0.6217, time 130.21ms, mfu 48.04%
+iter 17640: loss 0.6525, time 130.35ms, mfu 48.40%
+iter 17650: loss 0.6210, time 130.51ms, mfu 48.72%
+iter 17660: loss 0.6186, time 130.41ms, mfu 49.01%
+iter 17670: loss 0.5773, time 130.79ms, mfu 49.26%
+iter 17680: loss 0.6614, time 130.50ms, mfu 49.49%
+iter 17690: loss 0.6433, time 130.53ms, mfu 49.70%
+step 17700: train loss 0.6457, val loss 0.6443
+saving checkpoint to out-wiki-zh-ft
+iter 17700: loss 0.6253, time 11756.86ms, mfu 44.79%
+iter 17710: loss 0.6687, time 130.86ms, mfu 45.45%
+iter 17720: loss 0.5998, time 131.03ms, mfu 46.05%
+iter 17730: loss 0.6237, time 130.60ms, mfu 46.60%
+iter 17740: loss 0.6570, time 130.39ms, mfu 47.10%
+iter 17750: loss 0.6674, time 131.04ms, mfu 47.53%
+iter 17760: loss 0.6954, time 130.22ms, mfu 47.95%
+iter 17770: loss 0.6542, time 130.76ms, mfu 48.30%
+iter 17780: loss 0.5960, time 130.60ms, mfu 48.63%
+iter 17790: loss 0.6225, time 131.00ms, mfu 48.90%
+step 17800: train loss 0.6233, val loss 0.6331
+saving checkpoint to out-wiki-zh-ft
+iter 17800: loss 0.6623, time 11726.75ms, mfu 44.07%
+iter 17810: loss 0.5732, time 130.38ms, mfu 44.83%
+iter 17820: loss 0.5961, time 130.54ms, mfu 45.50%
+iter 17830: loss 0.6054, time 130.46ms, mfu 46.11%
+iter 17840: loss 0.6033, time 130.88ms, mfu 46.65%
+iter 17850: loss 0.6628, time 130.03ms, mfu 47.16%
+iter 17860: loss 0.6435, time 130.42ms, mfu 47.61%
+iter 17870: loss 0.5728, time 131.38ms, mfu 47.97%
+iter 17880: loss 0.6062, time 131.23ms, mfu 48.30%
+iter 17890: loss 0.5872, time 131.05ms, mfu 48.61%
+step 17900: train loss 0.6180, val loss 0.6211
+saving checkpoint to out-wiki-zh-ft
+iter 17900: loss 0.6418, time 11641.01ms, mfu 43.81%
+iter 17910: loss 0.6221, time 131.04ms, mfu 44.57%
+iter 17920: loss 0.6034, time 131.13ms, mfu 45.24%
+iter 17930: loss 0.6163, time 130.23ms, mfu 45.89%
+iter 17940: loss 0.6513, time 130.65ms, mfu 46.45%
+iter 17950: loss 0.6062, time 131.18ms, mfu 46.94%
+iter 17960: loss 0.6335, time 131.29ms, mfu 47.38%
+iter 17970: loss 0.6425, time 131.10ms, mfu 47.77%
+iter 17980: loss 0.6482, time 131.17ms, mfu 48.13%
+iter 17990: loss 0.5947, time 131.34ms, mfu 48.44%
+step 18000: train loss 0.6122, val loss 0.6144
+saving checkpoint to out-wiki-zh-ft
+iter 18000: loss 0.6755, time 11766.70ms, mfu 43.66%
+iter 18010: loss 0.5411, time 130.98ms, mfu 44.43%
+iter 18020: loss 0.5954, time 130.68ms, mfu 45.14%
+iter 18030: loss 0.5871, time 130.18ms, mfu 45.80%
+iter 18040: loss 0.6057, time 130.54ms, mfu 46.38%
+iter 18050: loss 0.5198, time 129.72ms, mfu 46.93%
+iter 18060: loss 0.6707, time 131.88ms, mfu 47.34%
+iter 18070: loss 0.6094, time 131.26ms, mfu 47.74%
+iter 18080: loss 0.5998, time 130.13ms, mfu 48.14%
+iter 18090: loss 0.5684, time 130.49ms, mfu 48.48%
+step 18100: train loss 0.6006, val loss 0.6129
+saving checkpoint to out-wiki-zh-ft
+iter 18100: loss 0.6162, time 12118.33ms, mfu 43.69%
+iter 18110: loss 0.6526, time 131.94ms, mfu 44.42%
+iter 18120: loss 0.5820, time 126.97ms, mfu 45.28%
+iter 18130: loss 0.6501, time 133.03ms, mfu 45.82%
+iter 18140: loss 0.5991, time 130.39ms, mfu 46.40%
+iter 18150: loss 0.5505, time 131.29ms, mfu 46.89%
+iter 18160: loss 0.6684, time 131.25ms, mfu 47.33%
+iter 18170: loss 0.6138, time 131.33ms, mfu 47.72%
+iter 18180: loss 0.6139, time 129.25ms, mfu 48.16%
+iter 18190: loss 0.6549, time 131.31ms, mfu 48.47%
+step 18200: train loss 0.5971, val loss 0.6082
+saving checkpoint to out-wiki-zh-ft
+iter 18200: loss 0.5955, time 12240.96ms, mfu 43.68%
+iter 18210: loss 0.6571, time 130.62ms, mfu 44.47%
+iter 18220: loss 0.5802, time 131.08ms, mfu 45.16%
+iter 18230: loss 0.5504, time 131.33ms, mfu 45.77%
+iter 18240: loss 0.6474, time 129.91ms, mfu 46.37%
+iter 18250: loss 0.6106, time 130.91ms, mfu 46.88%
+iter 18260: loss 0.6213, time 131.11ms, mfu 47.33%
+iter 18270: loss 0.6246, time 127.30ms, mfu 47.88%
+iter 18280: loss 0.6370, time 130.33ms, mfu 48.26%
+iter 18290: loss 0.6662, time 132.15ms, mfu 48.53%
+step 18300: train loss 0.5995, val loss 0.6033
+saving checkpoint to out-wiki-zh-ft
+iter 18300: loss 0.5768, time 12169.20ms, mfu 43.73%
+iter 18310: loss 0.5859, time 130.42ms, mfu 44.52%
+iter 18320: loss 0.6556, time 131.16ms, mfu 45.20%
+iter 18330: loss 0.6112, time 131.34ms, mfu 45.81%
+iter 18340: loss 0.5528, time 131.28ms, mfu 46.36%
+iter 18350: loss 0.5489, time 131.28ms, mfu 46.85%
+iter 18360: loss 0.6050, time 131.24ms, mfu 47.29%
+iter 18370: loss 0.6496, time 131.08ms, mfu 47.70%
+iter 18380: loss 0.5917, time 130.22ms, mfu 48.10%
+iter 18390: loss 0.5217, time 130.53ms, mfu 48.45%
+step 18400: train loss 0.5904, val loss 0.5975
+saving checkpoint to out-wiki-zh-ft
+iter 18400: loss 0.5795, time 12146.03ms, mfu 43.66%
+iter 18410: loss 0.6101, time 128.65ms, mfu 44.53%
+iter 18420: loss 0.6083, time 131.68ms, mfu 45.19%
+iter 18430: loss 0.5636, time 131.16ms, mfu 45.80%
+iter 18440: loss 0.6710, time 128.72ms, mfu 46.45%
+iter 18450: loss 0.5666, time 132.46ms, mfu 46.89%
+iter 18460: loss 0.6616, time 130.92ms, mfu 47.34%
+iter 18470: loss 0.6623, time 131.13ms, mfu 47.74%
+iter 18480: loss 0.5668, time 132.40ms, mfu 48.06%
+iter 18490: loss 0.5719, time 132.72ms, mfu 48.32%
+step 18500: train loss 0.5853, val loss 0.6023
+iter 18500: loss 0.6369, time 8802.10ms, mfu 43.57%
+iter 18510: loss 0.5010, time 131.37ms, mfu 44.34%
+iter 18520: loss 0.6287, time 131.14ms, mfu 45.04%
+iter 18530: loss 0.5336, time 131.44ms, mfu 45.65%
+iter 18540: loss 0.5698, time 131.56ms, mfu 46.21%
+iter 18550: loss 0.5789, time 131.39ms, mfu 46.71%
+Traceback (most recent call last):
+  File "/home/ubuntu/DORC-GPT/train.py", line 300, in <module>
+    logits, loss = model(X, Y)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py", line 658, in _fn
+    return fn(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ubuntu/DORC-GPT/model.py", line 170, in forward
+    def forward(self, idx, targets=None):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py", line 849, in _fn
+    return fn(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/_functorch/aot_autograd.py", line 1207, in forward
+    return compiled_fn(full_args)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 317, in runtime_wrapper
+    all_outs = call_func_at_runtime_with_args(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/utils.py", line 126, in call_func_at_runtime_with_args
+    out = normalize_as_list(f(args))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/utils.py", line 100, in g
+    return f(*args)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/autograd/function.py", line 575, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 1979, in forward
+    fw_outs = call_func_at_runtime_with_args(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/utils.py", line 126, in call_func_at_runtime_with_args
+    out = normalize_as_list(f(args))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 497, in wrapper
+    return compiled_fn(runtime_args)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/_inductor/output_code.py", line 558, in __call__
+    return self.current_callable(inputs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/_inductor/utils.py", line 2435, in run
+    return model(new_inputs)
+  File "/tmp/torchinductor_ubuntu/mu/cmui3g4dl4ezm6bbmvt6pw37ysinmubp6u56k7yqblphuwpulpmq.py", line 1950, in call
+    triton_poi_fused__to_copy_t_4.run(primals_57, buf229, 2359296, stream=stream0)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 1045, in run
+    return launcher(
+  File "<string>", line 5, in launcher
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/triton/backends/nvidia/driver.py", line 529, in __call__
+    self.launch(gridX, gridY, gridZ, stream, function, self.launch_cooperative_grid, global_scratch, *args)
+KeyboardInterrupt

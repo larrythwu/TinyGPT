@@ -1,0 +1,15 @@
+{"time":"2025-04-01T18:26:00.586759581Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/ubuntu/DORC-GPT/wandb/run-20250401_182600-pqnljhf0/logs/debug-core.log"}
+{"time":"2025-04-01T18:26:00.68978109Z","level":"INFO","msg":"created new stream","id":"pqnljhf0"}
+{"time":"2025-04-01T18:26:00.68981711Z","level":"INFO","msg":"stream: started","id":"pqnljhf0"}
+{"time":"2025-04-01T18:26:00.689863001Z","level":"INFO","msg":"writer: Do: started","stream_id":"pqnljhf0"}
+{"time":"2025-04-01T18:26:00.689898352Z","level":"INFO","msg":"sender: started","stream_id":"pqnljhf0"}
+{"time":"2025-04-01T18:26:00.689934534Z","level":"INFO","msg":"handler: started","stream_id":"pqnljhf0"}
+{"time":"2025-04-01T18:26:00.873642728Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-01T18:58:11.118382896Z","level":"INFO","msg":"stream: closing","id":"pqnljhf0"}
+{"time":"2025-04-01T18:58:11.118412197Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-01T18:58:11.118887247Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-01T18:58:11.549382542Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-01T18:58:11.694530823Z","level":"INFO","msg":"handler: closed","stream_id":"pqnljhf0"}
+{"time":"2025-04-01T18:58:11.694564644Z","level":"INFO","msg":"sender: closed","stream_id":"pqnljhf0"}
+{"time":"2025-04-01T18:58:11.694560314Z","level":"INFO","msg":"writer: Close: closed","stream_id":"pqnljhf0"}
+{"time":"2025-04-01T18:58:11.694658036Z","level":"INFO","msg":"stream: closed","id":"pqnljhf0"}

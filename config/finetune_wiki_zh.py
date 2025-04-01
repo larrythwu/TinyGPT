@@ -1,10 +1,10 @@
-# Configuration for fine-tuning the Red Chamber model
+# Configuration for fine-tuning the Wiki Zh model
 
 import time
 
 # I/O
 out_dir = 'out-wiki-zh-ft'
-dataset = 'red_chamber_ft'
+dataset = 'silk_road_ft'
 
 wandb_log = True
 wandb_project = 'owt'
@@ -12,9 +12,9 @@ wandb_run_name='wiki_zh_gpt2-124M-ft'
 init_from = 'resume'
 
 # evaluation and logging
-eval_interval = 5
-eval_iters = 1
-log_interval = 1
+eval_interval = 50
+eval_iters = 200
+log_interval = 10
 always_save_checkpoint = False
 
 # training
@@ -22,7 +22,7 @@ batch_size = 12
 block_size = 1024
 gradient_accumulation_steps = 1
 
-max_iters = 5000
+max_iters = 60000
 
 # optimizer
 learning_rate = 3e-5
